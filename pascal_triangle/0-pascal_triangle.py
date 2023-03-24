@@ -5,6 +5,10 @@ Returns an empty list if n <= 0
 You can assume n will be always an integer
 """
 def pascal_triangle(n):
+    """
+    This function takes an int number (n) and return a list of lists thath
+    represents the pascal's triangle with (n) rows.
+    """
     if n <= 0:
          return []
     else:
