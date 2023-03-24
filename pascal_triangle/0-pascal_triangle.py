@@ -12,7 +12,7 @@ def pascal_triangle(n):
     represents the pascal's triangle with (n) rows.
     """
     if n <= 0:
-         return []
+        return []
     else:
         triangle = [[1]]
         for i in range(1, n):
